@@ -20,8 +20,7 @@ export default class Search extends React.Component{
             <div>
                 <form>
                     <input type = 'text' value={this.state.text} onChange = {this.ChangeHandler}/>
-                </form>
-        <h1>{this.state.text}</h1>    
+                </form>  
             </div>
         );
     }
